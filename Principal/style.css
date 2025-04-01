@@ -37,10 +37,25 @@ body{
     margin-bottom: 0px;
 }
 
+#acform{
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
 .logs{
     margin: 2.64%;
-    width: 8.8%;
-    height: 90%;
+    width: 90%;
+    height: 50px;
 
-    color: #683A91;
+    background-color: #683A91;
+    border-radius: 8px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.Lab{
+    margin-left: 5%;
+    color: #111417;
 }
