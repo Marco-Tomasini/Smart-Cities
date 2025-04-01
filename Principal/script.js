@@ -10,7 +10,9 @@ function validarDados(){
         return;
     }
 
-    if(!senha || senha.length < 8){
+    else if(!senha || senha.length < 8){
         alert("Por favor, insira uma senha que tenha pelo menos 8 dígitos")
     }
+
+    
 }
