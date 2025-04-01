@@ -21,17 +21,17 @@
 
     <main>
         <div>
-            <form action="" id="login">
-                <label for="novasenha">Nova Senha </label>
-                <input type="password" placeholder="Digite sua nova senha" id="novasenha" name="novasenha" required>
+            <form action="" id="login" onsubmit="return validarDadosSenha()">
+                <label class="Lab" for="novaSenha">Nova Senha </label>
+                <input class="logs" type="password" placeholder="Digite sua nova senha" id="novaSenha" name="novaSenha" required>
                 <br>
                 <br>
-                <label for="confirmsenha">Senha: </label>
-                <input type="password" placeholder="Confirme sua nova senha" id="confirmsenha" name="confirmsenha" required>
+                <label class="Lab" for="confirmSenha">Senha: </label>
+                <input class="logs" type="password" placeholder="Confirme sua nova senha" id="confirmSenha" name="confirmSenha" required>
                 <br>
                 <br>
 
-                <button type="button" onclick="validarSenha()">Entrar</button>
+                <button type="submit" class="button">Entrar</button>
             </form>
         </div>
         
