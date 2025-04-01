@@ -21,7 +21,7 @@
 
     <main>
         <div>
-            <form action="" id="acform">
+            <form action="" id="acform" onsubmit="return validarDados()">
                 <label class="Lab" for="email">Email:</label>
                 <input class="logs" type="text" placeholder="Insira seu email" id="email" name="email" required>
                 <br>
@@ -33,7 +33,7 @@
 
                 <a href="esquecisenha.html">Esqueci minha senha</a>
 
-                <button type="button" onclick="validarDados(); novaPag()">Entrar</button>
+                <button type="submit">Entrar</button>
             </form>
         </div>
         
