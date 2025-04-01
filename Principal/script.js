@@ -7,12 +7,17 @@ function validarDados(){
 
     if(!email){
         alert('Por favor, insira seu E-mail');
-        return;
+        return false;
     }
 
     else if(!senha || senha.length < 8){
-        alert("Por favor, insira uma senha que tenha pelo menos 8 dígitos")
+        alert("Por favor, insira uma senha que tenha pelo menos 8 dígitos");
+        return false;
     }
+}
 
-    
+    if (validarDados() === true){
+        function novaPag(){
+            window.location.href = "Dashboard.html"
+        }
 }
