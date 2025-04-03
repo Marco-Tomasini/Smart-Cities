@@ -38,8 +38,8 @@ body{
 }
 
 #acform{
+    justify-content: center;
     align-items: center;
-    justify-items: center;
     width: 100%;
 }
 
@@ -61,10 +61,27 @@ body{
 }
 
 .button{
-    background-color: #683A91;
-    color: #a8a8a8;
+    margin: 2.64%;
+    width: 90%;
+    height: 50px;
+
+    background-color: #ffffff;
+    color: #111417;
     border-radius: 8px;
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+}
+
+#esqueci{
+    background-color: transparent;
+    border: none;
+    justify-content: right;
+}
+
+#esquecisenha{
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
 }
