@@ -73,6 +73,17 @@ body{
     outline: 0;
 }
 
+.space{
+    height: 55px;
+}
+
+.login{
+ display: flex;
+ flex-direction: column;
+ align-items: baseline;
+ padding: 5%;
+}
+
 #esqueci{
     background-color: transparent;
     border: none;
