@@ -111,3 +111,7 @@ body{
     flex-direction: row;
     width: 95%;
 }
+
+.flex{
+    display: flex;
+}
