@@ -24,7 +24,7 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     height: 118px;
     width: 100%;
@@ -122,7 +122,7 @@ body{
     height: 20%;
     max-width: 100%;
     max-height: 20%;
-    
+    justify-content: space-between;
 }
 
 .purple{
@@ -130,5 +130,16 @@ body{
 }
 
 .botaotremdashboard{
-    justify-content: right;
+    justify-content: space-between;
+    display: flex;
+}
+
+#botdash{
+    background-color: #683A91;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    padding: 1.5%;
 }
