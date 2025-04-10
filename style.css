@@ -26,9 +26,28 @@ body{
     align-items: center;
     justify-content: center;
 
-    height: 118px;
+    height: 115px;
     width: 100%;
     max-width: 100%;
+}
+
+#navtop{
+    background-color: #683A91;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+
+    height: 60px;
+    width: 100%;
+    max-width: 100%;
+}
+
+#alerts{
+    font-size: 16px;
+    justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
 #iconP{
@@ -114,6 +133,11 @@ body{
 
 .flex{
     display: flex;
+}
+
+.flexcenter{
+    display: flex;
+    justify-content: center;
 }
 
 
