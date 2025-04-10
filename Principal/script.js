@@ -50,6 +50,6 @@ function validarDadosSenha(){
         return false;
     }
 
-    window.location.href = "login.html"
+    window.location.href = "index.html"
     return false
 }
