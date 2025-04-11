@@ -26,8 +26,15 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 5%;
-
     height: 70px;
+}
+
+#navtop{
+    background-color: #683A91;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
 }
 
 #navdash p, h3{
