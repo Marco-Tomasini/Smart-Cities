@@ -193,3 +193,11 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+
+.notificacoes{
+    color: #111417;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+}
