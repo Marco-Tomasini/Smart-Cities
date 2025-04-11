@@ -35,7 +35,7 @@ body{
     background-color: #683A91;
 
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     align-items: center;
 
     height: 60px;
