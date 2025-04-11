@@ -76,6 +76,15 @@ body{
     width: 100%;
 }
 
+.roxoclaro{
+    background-color:#AF94C7;
+    color: #111417;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
 .logs{
     margin: 2.64%;
     width: 90%;
