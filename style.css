@@ -186,3 +186,10 @@ body{
 
     height: 15px;
 }
+
+.scroll{
+    max-height: 212px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
