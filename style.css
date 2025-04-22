@@ -259,7 +259,7 @@ body{
 
 .gridbutton{
     margin-top: 2%;
-    row-gap: 18px;
+    row-gap: 1rem;
 
     display: grid;
     grid-template-columns: 15% 68% 17%;
@@ -278,6 +278,10 @@ body{
     font-size: 13px;
 }
 
+.textacess h5{
+    margin: 0;
+    padding: 0;
+}
 
 /*!!!!Botao!!!!*/
 /*tamanho botão*/
@@ -328,3 +332,8 @@ body{
 }
 
 /*!!!!fim botão!!!!*/
+
+.iconAcess{
+    width: 90%;
+    height: 100%;
+}
