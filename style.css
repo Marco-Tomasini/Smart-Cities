@@ -31,6 +31,7 @@ body{
 
 #navtop{
     background-color: #683A91;
+    width: 100%;
 
     display: grid;
     grid-template-columns: auto auto auto;
@@ -202,8 +203,23 @@ body{
 
 .notificacoes{
     color: #111417;
+    font-size: 0.625rem;
     height: 65px;
+    width: 100%;
 
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    place-items: center;
+}
+
+.notificacoesOld{
+    background-color: #929292;
+    color: #111417;
+    font-size: 0.625rem;
+    height: 65px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    place-items: center;
 }
