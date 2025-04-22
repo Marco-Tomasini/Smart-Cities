@@ -31,6 +31,7 @@ body{
 
 #navtop{
     background-color: #683A91;
+    width: 100%;
 
     display: grid;
     grid-template-columns: auto auto auto;
@@ -202,9 +203,29 @@ body{
 
 .notificacoes{
     color: #111417;
+    font-size: 0.625rem;
     height: 65px;
+    width: 100%;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    place-items: center;
+}
+
+.notificacoesOld{
+    background-color: #929292;
+    color: #111417;
+    font-size: 0.625rem;
+    height: 65px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    place-items: center;
+}
+
+#acessdiv{
+    justify-content: left;
     align-items: center;
 }
 
@@ -245,3 +266,103 @@ body{
     display:block;
     outline:0;
 }
+
+#navacess{
+    background-color: #683A91;
+
+    display: grid;
+    grid-template-columns: 15% 80%;
+    align-items: center;
+    min-height: 60px;
+    max-height: 11%;
+
+}
+
+#navacess h2{
+    font-size: 12px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#navacess h1{
+    font-size: 18px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    margin-top: 0;
+}
+
+.gridbutton{
+    margin-top: 2%;
+    row-gap: 18px;
+
+    display: grid;
+    grid-template-columns: 15% 68% 17%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.acessoptions{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.textacess{
+    color: #111417;
+    font-size: 13px;
+}
+
+
+/*!!!!Botao!!!!*/
+/*tamanho botão*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 43px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/*definindo o slider*/
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #4A2F62;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+/*bola do botão*/
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/*Mudança de on/off*/
+.switch input:checked+.slider {
+    background-color: #683A91;
+}
+
+.switch input:checked+.slider::before {
+    transform: translateX(16px);
+}
+
+/*!!!!fim botão!!!!*/
