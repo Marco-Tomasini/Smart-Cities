@@ -207,3 +207,35 @@ body{
     display: flex;
     align-items: center;
 }
+
+#acessdiv{
+    justify-content: left;
+    align-items: center;
+}
+
+#navacess{
+    background-color: #683A91;
+
+    display: grid;
+    grid-template-columns: 15% 80%;
+    align-items: center;
+    min-height: 60px;
+    max-height: 11%;
+
+}
+
+#navacess h2{
+    font-size: 12px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#navacess h1{
+    font-size: 18px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    margin-top: 0;
+}
