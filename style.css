@@ -243,6 +243,7 @@ body{
 
 .gridbutton{
     margin-top: 2%;
+    row-gap: 18px;
 
     display: grid;
     grid-template-columns: 15% 68% 17%;
