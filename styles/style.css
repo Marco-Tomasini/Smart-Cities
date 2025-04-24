@@ -203,25 +203,31 @@ body{
 
 .notificacoes{
     color: #111417;
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     height: 65px;
     width: 100%;
+    border-bottom-style: solid;
+    border-width: 2px;
 
     display: grid;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 10% 80% 10%;
     place-items: center;
+    justify-items: center;
 }
 
 .notificacoesOld{
     background-color: #929292;
     color: #111417;
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     height: 65px;
     width: 100%;
+    border-bottom-style: solid;
+    border-width: 2px;
 
     display: grid;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 10% 80% 10%;
     place-items: center;
+    justify-items: center;
 }
 
 #acessdiv{
