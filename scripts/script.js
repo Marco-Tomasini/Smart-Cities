@@ -15,7 +15,7 @@ function validarDadosLogin(){
         return false;
     }
 
-    window.location.href = "public/dashboard.html"
+    window.location.href = 'public/dashboard.html'
     return false
 }
 
@@ -29,7 +29,7 @@ function validarDadosEmail(){
         return false;
     }
 
-    window.location.href = "public/novaSenha.html"
+    window.location.href = 'novaSenha.html'
     return false
 }
 
@@ -50,7 +50,7 @@ function validarDadosSenha(){
         return false;
     }
 
-    window.location.href = "public/index.html"
+    window.location.href = '../index.html'
     return false
 }
 
