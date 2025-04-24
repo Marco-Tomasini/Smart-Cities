@@ -381,3 +381,10 @@ body{
     width: 90%;
     height: 100%;
 }
+
+#sidebarMenuButton{
+    background-color: #683A91;
+    border: none;
+    padding: 4px 8px;
+    font-size: 17px;
+}
