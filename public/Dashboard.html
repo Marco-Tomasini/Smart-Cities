@@ -19,7 +19,7 @@
             <a href="#" class="sidebarItem" id="plus">Funcionários</a>
         </div>
         <div id="botdash">
-            <button onclick="openSidebar()">☰</button>
+            <button id="sidebarMenuButton" onclick="openSidebar()">☰</button>
         </div>
 
         <div id="navdash" class="flex">
@@ -37,6 +37,7 @@
 
 
     <main>
+        <div id="overlay" onclick="closeSidebar()"></div>
         <div>
             <!--!!!!!!!!-->
             <div class="scroll">
@@ -52,9 +53,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
+                            <div class="flex nome">
                                 <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
                                 <p>R1 VILA NOVA</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -73,9 +76,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
+                            <div class="flex nome">
                                 <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
                                 <p>R2 IRIRIÚ</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -94,9 +99,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
+                            <div class="flex nome">
                                 <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
                                 <p>R3 TUPY</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -115,9 +122,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
+                            <div class="flex nome">
                                 <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
                                 <p>R4 GUANABARA</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -136,9 +145,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
+                            <div class="flex nome">
                                 <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
                                 <p>R5 ITINGA</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -157,9 +168,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
+                            <div class="flex nome">
                                 <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
                                 <p>R6 GODOY</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -178,11 +191,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
-                                <div class="flex">
-                                    <img src="../assets/icon/bolinhaAmarela.svg" alt="bolinha-amarela">
-                                    <p>R7 BALA</p>
-                                </div>
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaAmarela.svg" alt="bolinha-amarela">
+                                <p>R7 BALA</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>
@@ -201,11 +214,11 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="flex">
-                                <div class="flex">
-                                    <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
-                                    <p>R8 TOMASINI</p>
-                                </div>
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
+                                <p>R8 TOMASINI</p>
+                            </div>
+                            <div>
                                 <img src="../assets/icon/trem.svg" alt="logo-trem">
                             </div>
                         </div>

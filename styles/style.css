@@ -243,6 +243,7 @@ body{
     background-color:#D9D9D9;
     position:fixed;
     right: 0;
+    z-index: 1;
 }
 
 .sidebarItem{
@@ -382,17 +383,4 @@ body{
 .iconAcess{
     width: 90%;
     height: 100%;
-}
-
-.flexrelatorios{
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.porcentagem{
-    height: 2.063rem;
-    width: 6rem;
 }
