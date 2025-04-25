@@ -204,7 +204,7 @@ body{
 .notificacoes{
     color: #111417;
     font-size: 0.75rem;
-    height: 65px;
+    height: 69px;
     width: 100%;
     border-bottom-style: solid;
     border-width: 2px;
@@ -219,7 +219,7 @@ body{
     background-color: #929292;
     color: #111417;
     font-size: 0.75rem;
-    height: 65px;
+    height: 69px;
     width: 100%;
     border-bottom-style: solid;
     border-width: 2px;
@@ -380,4 +380,11 @@ body{
 .iconAcess{
     width: 90%;
     height: 100%;
+}
+
+#sidebarMenuButton{
+    background-color: #683A91;
+    border: none;
+    padding: 4px 8px;
+    font-size: 17px;
 }
