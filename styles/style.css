@@ -170,8 +170,8 @@ body{
 }
 
 .botaotremdashboard{
-    justify-content: space-between;
     display: flex;
+    width: 33%;
 }
 
 #botdash{
@@ -401,4 +401,11 @@ body{
 
 #separacaoMonit{
     
+}
+
+.a{
+
+}
+.dashOrg{
+    width: 33%;
 }
