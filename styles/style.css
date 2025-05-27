@@ -399,31 +399,11 @@ body{
     margin-left: -25%;
 }
 
-#separacaoMonit{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-#separacaoMonit h5{
-    font-weight: normal;
-    color: #000000;
-}
-
-.gridMonit{
-    display: grid;
-    grid-template-columns: 50% 5% 32% 13%;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #000;
-    padding: 0;
-}
-
 .dashOrg{
     width: 33%;
 }
 
-#monitoramentoEspec{
+.monitoramentoEspec{
     font-size: 16px;
     justify-content: center;
     position: relative;
@@ -431,106 +411,61 @@ body{
     font-weight: normal;
 }
 
-.flexrelatorios{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    place-items: center;
+#trens{
+    margin: 5%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divisorias{
+    background-color: #683A91;
     width: 100%;
-    height: 55px;
-    color: #111417;
-    border-color: #111417;
-    border-bottom-style: solid;
-    border-width: 2px;
-    row-gap: 1rem;
+
+    display: grid;
+    grid-template-columns: 12% auto auto;
+    align-items: center;
+
 }
 
-.barraporcentagem{
-    display: flex;
-    position: relative;
-    margin-right: 10px;
+.text{
+    color: #000000;
+    margin: 8%;
+    margin-top: 5%;
 }
 
-.bar{
-    width: 106px;
-    height: 33px;
+#roxo{
+    background-color: #683A91;
+    width: 100%;
+    height: 2.5rem;
 }
 
-.mainBar{
-    background-color:#7f51a8;
-    border-radius: 5%;
-}
-
-.porcentagemBarR1{
-    width: 95%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR2{
-    width: 100%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR3{
-    width: 15%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR4{
-    width: 60%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR5{
-    width: 12%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR6{
-    width: 95%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR7{
-    width: 45%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemBarR8{
-    width: 75%; /*Mudar porcentagem da barra*/
-    height: 99%;
-    background-color: #3D185F;
-    position: absolute;
-    border-radius: 5%;
-}
-
-.porcentagemTextR1, .porcentagemTextR2, .porcentagemTextR3, .porcentagemTextR4, .porcentagemTextR5, .porcentagemTextR6, .porcentagemTextR7, .porcentagemTextR8{
-    display: flex;
+#AVISAR{
+    width: 18.125rem;
+    height: 2.625rem;
     justify-content: center;
     align-items: center;
+    background-color: yellow;
+    border: yellow;
+    border-radius: 10px;
+
+    margin: 5%;
+    text-align: center;
+}
+
+#AVISAR:hover{
+    background-color: rgb(197, 197, 4);
+}
+
+#AVISAR:hover{
+    background-color: rgb(197, 197, 4);
+}
+
+.rodape-container {
     width: 100%;
-    height: 100%;
-    color: #D9D9D9;
-    font-weight: bolder;
     position: absolute;
+    top: 80%;
 }
