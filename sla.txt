@@ -1,0 +1,177 @@
+<div class="linhas flex">
+
+                    <div class="flex dashOrg">
+                        <p>10:30</p>
+                        <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                        <p>10:46</p>
+                    </div>
+
+                    <div class="flex dashOrg">
+                        <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
+                        <p>R1 VILA NOVA</p>
+                    </div>
+
+                    <img src="../assets/icon/trem.svg" alt="logo-trem">
+
+                </div>
+
+                <!--LINHA2-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
+                                <p>R2 IRIRIÚ</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--LINHA3-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
+                                <p>R3 TUPY</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--LINHA4-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
+                                <p>R4 GUANABARA</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--LINHA5-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVermelha.svg" alt="bolinha-vermelha">
+                                <p>R5 ITINGA</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--LINHA6-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
+                                <p>R6 GODOY</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--LINHA7-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaAmarela.svg" alt="bolinha-amarela">
+                                <p>R7 BALA</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--LINHA8-->
+
+                <div class="linhas">
+                    <div class="flex botaotremdashboard">
+                        <div>
+                            <div class="flex">
+                                <p>10:30</p>
+                                <img src="../assets/icon/bolinhasEntreHorarioDashboard.svg" alt="">
+                                <p>10:46</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex nome">
+                                <img src="../assets/icon/bolinhaVerde.svg" alt="bolinha-verde">
+                                <p>R8 TOMASINI</p>
+                            </div>
+                            <div>
+                                <img src="../assets/icon/trem.svg" alt="logo-trem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
