@@ -422,3 +422,11 @@ body{
 .dashOrg{
     width: 33%;
 }
+
+#monitoramentoEspec{
+    font-size: 16px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+}
