@@ -399,8 +399,37 @@ body{
     margin-left: -25%;
 }
 
+.gridMonit{
+    display: grid;
+    grid-template-columns: 50% 5% 32% 13%;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    padding: 0;
+}
+
 .dashOrg{
     width: 33%;
+}
+
+#monitoramento{
+    font-size: 16px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+    margin-left: -25%;
+}
+
+#separacaoMonit{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#separacaoMonit h5{
+    font-weight: normal;
+    color: #000000;
 }
 
 .monitoramentoEspec{
