@@ -659,3 +659,23 @@ body{
 .textDG h5, h6{
     font-weight: normal;
 }
+
+.botao_interno{
+    background-color: red;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.mensagemEmergencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111417;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
