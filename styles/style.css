@@ -391,8 +391,8 @@ body{
 }
 
 #voltarProfile {
-    margin-left: 2%;
-    margin-top: 2%;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 #monitoramento{
@@ -652,6 +652,54 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 0;
 
+}
 
+#profile h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.profileImg{
+    margin-right: 1rem;
+    margin-bottom: 10%;
+
+}
+
+.centerProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.editarProfile{
+    margin-right: 5%;
+    margin-top: 3%;
+
+}
+
+.topImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
