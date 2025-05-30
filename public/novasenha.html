@@ -22,12 +22,14 @@
     <main>
         <div class="space"></div>
         <div >
-            <form class="login" onsubmit="return validarDadosSenha()">
+            <form id="newPass">
                 <label class="Lab" for="novaSenha">Nova Senha </label>
-                <input class="logs" type="password" placeholder="Digite sua nova senha" id="novaSenha" name="novaSenha" required>
+                <input class="logs" type="password" placeholder="Digite sua nova senha" id="novaSenha" name="novaSenha">
+                <div class="error" id="errorNovaSenha"></div>
                 <br>
                 <label class="Lab" for="confirmSenha">Senha: </label>
-                <input class="logs" type="password" placeholder="Confirme sua nova senha" id="confirmSenha" name="confirmSenha" required>
+                <input class="logs" type="password" placeholder="Confirme sua nova senha" id="confirmSenha" name="confirmSenha">
+                <div class="error" id="errorConfSenha"></div>
                 <br>
 
                 <button type="submit" class="button">Redefinir</button>

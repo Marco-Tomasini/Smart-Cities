@@ -18,9 +18,10 @@
     <main>
         <div class="space"></div>
         <div class="space"></div>
-        <form class="login" onsubmit="return validarDadosEmail()">
+        <form id="esqueci">
             <label class="Lab" for="emailrec">Email: </label>
-            <input class="logs" type="email" placeholder="Digite o email de recuperação" name="emailrec" id="emailrec" required>
+            <input class="logs" type="email" placeholder="Digite o email de recuperação" name="emailrec" id="emailrec">
+            <div class="error" id="errorEmailRec"></div>
             <br>
             <br>
             <button type="submit" class="button">Enviar e-mail para recuperação da senha</button>

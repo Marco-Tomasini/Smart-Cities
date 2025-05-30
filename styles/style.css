@@ -122,11 +122,23 @@ body{
     height: 55px;
 }
 
-.login{
+#login{
  display: flex;
  flex-direction: column;
  align-items: baseline;
  padding: 5%;
+}
+#newPass{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5%;
+}
+#esqueci{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 5%;
 }
 
 #esqueci{
@@ -654,4 +666,9 @@ body{
     height: 6.25rem;
     padding: 0;
     margin-top: 3%;
+}
+
+.error {
+    color: rgb(179, 31, 31);
+    font-size: 0.9em;
 }

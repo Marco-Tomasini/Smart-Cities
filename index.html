@@ -22,13 +22,15 @@
     <main>
         <div class="space"></div>
         <div>
-            <form class="login" onsubmit="return validarDadosLogin()">
+            <form id="login">
                 <label class="Lab" for="email">Email:</label>
-                <input class="logs" type="email" placeholder="Insira seu email" id="email" name="email" required>
+                <input class="logs" type="email" placeholder="Insira seu email" id="email" name="email">
+                <div class="error" id="errorEmail"></div>
                 <br>
                 <br>
                 <label class="Lab" for="senha">Senha: </label>
-                <input class="logs" type="password" placeholder="Digite sua senha" id="senha" name="senha" required>
+                <input class="logs" type="password" placeholder="Digite sua senha" id="senha" name="senha">
+                <div class="error" id="errorSenha"></div>
 
                 <div id="esquecisenha">
                     <button type="button" id="esqueci" onclick="window.location = 'public/esqueciSenha.html'">Esqueci minha senha</button>
