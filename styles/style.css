@@ -630,9 +630,7 @@ body{
     grid-template-rows: repeat(8, 46px);
     gap: 7px;
     color: black;
-    grid-template-areas: ;
 }
-
 
 
 #sidebarMenuButton{
