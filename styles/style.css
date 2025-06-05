@@ -733,7 +733,7 @@ body{
 }
 
 .profileImg{
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     margin-bottom: 10%;
 
 }
@@ -800,4 +800,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#editarProfile{
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    height: 40px;
+    width: 40px;
 }
