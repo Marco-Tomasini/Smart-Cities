@@ -810,3 +810,16 @@ body{
     height: 40px;
     width: 40px;
 }
+
+.infoArea{
+    background-color: #BABABA;
+    width: 95%;
+    border-radius: 12px;
+    margin-left: 2.5%;
+    
+}
+
+.infoArea h3{
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
