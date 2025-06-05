@@ -90,8 +90,9 @@ body{
 
 .logs{
     margin: 2.64%;
-    width: 90%;
+    width: 85%;
     height: 50px;
+    padding-left: 10px;
 
     background-color: #683A91;
     border-radius: 8px;
@@ -629,7 +630,10 @@ body{
     grid-template-rows: repeat(8, 46px);
     gap: 7px;
     color: black;
+    grid-template-areas: ;
 }
+
+
 
 #sidebarMenuButton{
     background-color: #683A91;
@@ -800,4 +804,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 1px solid #000;
 }
