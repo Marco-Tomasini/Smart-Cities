@@ -785,10 +785,16 @@ body{
 }
 
 .botao_interno{
-    background-color: red;
-    padding: 20px 20px 20px 20px;
-    border: none;
+    background-color: rgb(219, 3, 3);
+    width: 95px;
+    height: 95px;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: white;
+    border-collapse: separate;
+    border-spacing: 100px;
     border-radius: 50%;
+    position: absolute;
 }
 
 .mensagemEmergencia{
@@ -830,4 +836,23 @@ body{
 .line{
     width: 100%;
     border-bottom: 1px solid #000;
+}
+.amareloExt{
+    background-color: #FFE100;
+    width: 270px;
+    height: 270px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+}
+
+.vermelhoExt{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    position: absolute;
 }
