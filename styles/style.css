@@ -801,13 +801,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     color: #111417;
+}
+
+.mensagemEmergencia p{
+    font-size: 1rem;
+
 }
 
 .botao{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 69%;
+    width: 100%;
 }
 
 #editarProfile{
