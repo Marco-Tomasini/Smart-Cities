@@ -819,19 +819,82 @@ body{
     width: 40px;
 }
 
+/* Info Area */
 .infoArea{
     background-color: #BABABA;
     width: 95%;
     border-radius: 12px;
     margin-left: 2.5%;
+
+    
     
 }
 
 .infoArea h3{
     margin-left: 5%;
     margin-top: 2.5%;
+    margin-bottom: 1%;
+
+    color: black;
+
 }
 
+.infoArea p{
+    margin-left: 5%;
+    margin-top: 0;
+    
+    color: black;
+    opacity: 0.5;
+}
+
+.infoborder {
+    width: 80%;
+    background-color: #ffffff78;
+    border-radius: 7px;
+    margin-left: 2.2%;
+}
+
+.infogrid{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin-top: 2.5%;
+
+}
+
+.infoborder_big{
+    width: 50%;
+    background-color: #ffffff78;
+    border-radius: 7px;
+    margin-left: 0;
+}
+
+.info2 h3{
+    margin-left: 2.8%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+
+    color: black;
+
+}
+
+.info2 p{
+    margin-left: 2%;
+    margin-top: 0;
+    
+    color: black;
+    opacity: 0.5;
+}
+
+.infoborder-inteiro{
+    width: 100%;
+    background-color: #ffffff78;
+    border-radius: 7px;
+    margin-left: 0;
+
+}
+
+/* Info Area - fim */
 
 .line{
     width: 100%;
