@@ -930,6 +930,26 @@ body{
     position: absolute;
 }
 
+.remover{
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color: #810606;
+    color: white;
+    border: #810606;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    width: 28%;
+    height: 1.4rem;
+}
+
+.remover:hover {
+    transition: 300ms;
+    background-color: #520707;
+}
+
 @view-transition{
     navigation: auto;
 }
