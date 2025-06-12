@@ -929,3 +929,24 @@ body{
     border-radius: 50%;
     position: absolute;
 }
+
+@view-transition{
+    navigation: auto;
+}
+
+.animateSideBar{
+    position: relative;
+    animation: animateright 0.4s;
+}
+
+@keyframes animateright {
+    from{
+        right: -200px;
+        opacity: 0;
+    }
+
+    to{
+        right: 0;
+        opacity: 1;
+    }
+}
