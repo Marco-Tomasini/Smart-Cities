@@ -1073,11 +1073,6 @@ body{
     left: 50%;
 }  
 
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 .containerG2 {
   width: 320px;
