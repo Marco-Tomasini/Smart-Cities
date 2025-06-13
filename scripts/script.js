@@ -8,6 +8,14 @@ function closeSidebar(){
     document.getElementById("overlay").style.display = "none";
 }
 
+function openSendMessage(){
+    document.getElementById("enviarMensagem").style.display = "flex";
+}
+
+function closeSendMessage(){
+    document.getElementById("enviarMensagem").style.display = "none";
+}
+
 document.addEventListener("DOMContentLoaded", function(){
 
     const login = document.getElementById('login');
