@@ -21,16 +21,30 @@
 
 
     <main>
-            <div class="mensagemEmergencia">
-                <p>ENVIE UMA MENSAGEM DE AVISO EMERGENCIAL A ROTA ESCOLHIDA</p>
-            </div>
+        <div class="mensagemEmergencia">
+            <p>ENVIE UMA MENSAGEM DE AVISO EMERGENCIAL A ROTA ESCOLHIDA</p>
+        </div>
 
-            <div class="botao">
-                <div class="amareloExt"></div>
-                <div class="vermelhoExt"></div>
-                <button class="botao_interno" type="button"></button>                
-            </div>
-                
+        <div class="botao">
+            <div class="amareloExt"></div>
+            <div class="vermelhoExt"></div>
+            <button class="botao_interno" type="button" onclick="openSendMessage()"></button> 
+
+            <div id="enviarMensagem" style="display: none;">
+                <div class="textEnviarMensagem">
+                    <p>Tem Certeza que deseja enviar uma mensagem de aviso a essa Rota?</p>
+                    <p>Digite o código de confirmação para enviar a mensagem</p>
+                    <input type="text">
+                    <button type="submit" onclick="closeSendMessage()">Enviar Mensagem</button>
+                </div>
+            </div>  
+            
+            <div class="emergencyMessage">
+                <p>MENSAGEM DE EMERGÊNCIA</p>
+            </div>    
+        </div>
+         
+      
     </main>
    
     
