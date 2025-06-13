@@ -1002,10 +1002,15 @@ body{
   }
   
   .container img {
-    width: 80%;           
+    width: 100%;           
     height: auto;              
   }
   
 .color{
     color: black;
 }
+
+#rota {
+    top: 2px; 
+    left: 50%;
+}  
