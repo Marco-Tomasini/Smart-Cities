@@ -1072,3 +1072,125 @@ body{
     top: 2px; 
     left: 50%;
 }  
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.containerG2 {
+  width: 320px;
+  height: 578px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  background-color: #fff;
+}
+
+.header {
+  background-color: #5e2d79;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-content {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.battery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent {
+  margin-right: 5px;
+}
+
+.train-icon {
+  font-size: 24px;
+}
+
+.status-section {
+  background-color: #5e2d79;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.status-indicators {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e0e0e0;
+  padding: 10px;
+  color: black;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.alterar-rota {
+  background-color: #5e2d79;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.map-section {
+  background-color: #dcdcdc;
+  padding: 10px;
+  text-align: center;
+}
+
+.map-img {
+  width: 55%;
+}
+
+.emergency {
+  background-color: #5e2d79;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
