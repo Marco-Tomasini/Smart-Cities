@@ -970,3 +970,42 @@ body{
         opacity: 1;
     }
 }
+
+.gridDash{
+    display: grid;
+    grid-template-columns: 2fr 10px 2fr 32px;
+    align-items: center;
+    grid-template-rows: repeat(8, 46px);
+    gap: 7px;
+    color: black;
+}
+
+#sidebarMenuButton{
+    background-color: #683A91;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;          
+    justify-content: center;         
+  }
+  
+  .container img {
+    width: 80%;           
+    height: auto;              
+  }
+  
+.color{
+    color: black;
+}
