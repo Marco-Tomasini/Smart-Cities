@@ -930,7 +930,7 @@ body{
     position: absolute;
 }
 
-.remover{
+#remover{
     margin-bottom: 2%;
     border-radius: 10px;
     background-color: #810606;
@@ -945,7 +945,7 @@ body{
     height: 1.4rem;
 }
 
-.remover:hover {
+#remover:hover {
     transition: 300ms;
     background-color: #520707;
 }
