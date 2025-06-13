@@ -822,12 +822,58 @@ body{
 
 }
 
+.emergencyMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 100%;
+    color: #111417;
+    position: absolute;
+}
+
+.emergencyMessage p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
 .botao{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 69%;
+    height: 60%;
     width: 100%;
+    position: absolute;
+}
+
+#enviarMensagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 224px;
+    height: 280px;
+    background-color: rgb(104, 58, 145, 0.9);
+    border: 5%;
+    z-index: 1;
+}
+
+.textEnviarMensagem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.textEnviarMensagem button{
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #FFF;
 }
 
 #editarProfile{
@@ -926,7 +972,7 @@ body{
     height: 270px;
     border: none;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
 }
 
 .vermelhoExt{
