@@ -108,3 +108,19 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
 });
+
+function alterTxtMsg() {
+    let txt = document.getElementById("AVISAR");
+    txt.innerText = "Mensagem enviada✓";
+    txt.disabled = true;
+}
+
+function alterTxtRemove() {
+    let txt = document.getElementById("remover");
+    if (confirm("Deseja realmente remover este item?")) {
+        txt.innerText = "Removido✓";
+        txt.disabled=true;
+    } else {
+        txt.innerText = "Remover";
+    }
+}

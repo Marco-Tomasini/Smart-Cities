@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="../scripts/script.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+
+
+    <title>Monitoramento</title>
+</head>
+<body>
+    <header>
+        <div id="navtop">
+            <div>
+                <img id="voltar" src="../assets/icon/setaPraEsquerda.svg" alt="seta-pra-esquerda" onclick="window.location = 'dashboard.html'">
+            </div>
+            <div>
+                <h2 id="monitoramento">Gestão de Rotas</h2>
+            </div>
+        </div>
+    </header>
+
+
+  <div class="map-container">
+
+    </div>
+  
+        <figure class="container">
+            <img id="rota" src="../assets/icon/rota.svg" alt="Descrição da imagem" usemap="#mapa-rotas">
+            <map name="mapa-rotas">
+                <area shape="rect" coords="100,0,150,50" href="monit.html" alt="Estação 1">
+                <area shape="rect" coords="180,130,220,180" href="#" alt="Estação 2" onclick="alert('Estação IRIRIÚ selecionada');">
+                <area shape="rect" coords="20,130,70,180" href="#" alt="Estação 3" onclick="alert('Estação VILA NOVA selecionada');">
+                <area shape="rect" coords="180,210,220,260" href="#" alt="Estação 4" onclick="alert('Estação GODOY selecionada');">
+                <area shape="rect" coords="20,280,70,330" href="#" alt="Estação 5" onclick="alert('Estação GUANABARA selecionada');">
+                <area shape="rect" coords="180,290,220,340" href="#" alt="Estação 6" onclick="alert('Estação BALA selecionada');">
+                <area shape="rect" coords="150,360,200,410" href="#" alt="Estação 7" onclick="alert('Estação TUPY selecionada');">
+                <area shape="rect" coords="100,300,150,350" href="#" alt="Estação 8" onclick="alert('Estação ITINGA selecionada');">
+            </map>
+        </figure>
+    </div>
+    
+    <p class="center color">Para editar rota/info clique na estação</p>
+  </div>
+
+
+
+</body>
+</html>
