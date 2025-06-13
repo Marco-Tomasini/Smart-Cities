@@ -259,6 +259,9 @@ body{
     position:fixed;
     right: 0;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .sidebarItem{
@@ -278,6 +281,13 @@ body{
 
 #plus{
     background-color: #523142!important;
+}
+
+#sairConta{
+    background-color: #810606;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
 }
 
 #closeButton{
@@ -930,7 +940,7 @@ body{
     position: absolute;
 }
 
-.remover{
+#remover{
     margin-bottom: 2%;
     border-radius: 10px;
     background-color: #810606;
@@ -945,7 +955,7 @@ body{
     height: 1.4rem;
 }
 
-.remover:hover {
+#remover:hover {
     transition: 300ms;
     background-color: #520707;
 }
@@ -1009,6 +1019,8 @@ body{
 .color{
     color: black;
 }
+
+
 
 #rota {
     top: 2px; 
