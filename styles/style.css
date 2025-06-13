@@ -1183,8 +1183,8 @@ body{
 }
 
 .emergency {
-  background-color: #5e2d79;
-  color: white;
+  background-color: yellow;
+  color: rgb(255, 0, 0);
   text-align: center;
   padding: 12px;
   font-weight: bold;
